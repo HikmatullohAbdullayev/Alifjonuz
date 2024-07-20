@@ -1,9 +1,9 @@
 
 function Footer() {
     return (
-        <div>
+        <footer className="bg-slate-300 container">
             Footer
-        </div>
+        </footer>
     );
 }
 

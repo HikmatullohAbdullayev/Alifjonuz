@@ -1,9 +1,15 @@
 
+
+import Nav from "../../components/Nav";
+
 function Header() {
     return (
-        <div>
-            Header
-        </div>
+        <header className="py-[10px] bg-white ">
+            
+           
+          <Nav/>
+
+        </header>
     );
 }
 
