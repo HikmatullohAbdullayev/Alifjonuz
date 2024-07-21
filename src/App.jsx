@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import MainLayout from "./Layout/MainLayout/MainLayout";
 import Home from "./Pages/home/Home";
-import BoshqaKurslar from "./Pages/boshqaKurslar/BoshqaKurslar";
-import AlBino from "./Pages/alBino/AlBino";
-import Ajurrumiyyah from "./Pages/ajurrumiyyah/Ajurrumiyyah";
-import AjurrumiyyaSharhi from "./Pages/ajurrumiyyaSharhi/AjurrumiyyaSharhi";
-import AtTuhfatusSaniyya from "./Pages/atTuhfatusSaniyya/AtTuhfatusSaniyya";
-import OsonArabTili from "./Pages/osonArabTili/OsonArabTili";
+import Kurslar from "./Pages/Kurslar/Kurslar";
+// import AlBino from "./Pages/alBino/AlBino";
+// import Ajurrumiyyah from "./Pages/ajurrumiyyah/Ajurrumiyyah";
+// import AjurrumiyyaSharhi from "./Pages/ajurrumiyyaSharhi/AjurrumiyyaSharhi";
+// import AtTuhfatusSaniyya from "./Pages/atTuhfatusSaniyya/AtTuhfatusSaniyya";
+// import OsonArabTili from "./Pages/osonArabTili/OsonArabTili";
 import Testlar from "./Pages/testlar/Testlar";
 import "./App.css"
 
@@ -17,13 +17,13 @@ function App() {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
 
-          <Route path="/al-bino" element={<AlBino />} />
+          {/* <Route path="/al-bino" element={<AlBino />} />
           <Route path="/ajurrumiyyah" element={<Ajurrumiyyah />} />
           <Route path="/ajurrumiyyah-sharhi" element={<AjurrumiyyaSharhi />} />
-          <Route path="/at-tuhfatus-saniyya" element={<AtTuhfatusSaniyya />} />
+          <Route path="/at-tuhfatus-saniyya" element={<AtTuhfatusSaniyya />} /> */}
 
-          <Route path="/boshqa-kurslar" element={<BoshqaKurslar />}/>
-            <Route path="/boshqa-kurslar/oson-arab-tili" element={<OsonArabTili />} />
+          <Route path="/kurslar" element={<Kurslar />}/>
+            {/* <Route path="/boshqa-kurslar/oson-arab-tili" element={<OsonArabTili />} /> */}
           <Route path="/testlar" element={<Testlar />}></Route>
 
           <Route path="*" element={<h1>sahifa yo`q</h1>} />
