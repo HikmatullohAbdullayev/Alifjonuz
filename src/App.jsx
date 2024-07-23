@@ -9,6 +9,7 @@ import Kurslar from "./Pages/Kurslar/Kurslar";
 // import OsonArabTili from "./Pages/osonArabTili/OsonArabTili";
 import Testlar from "./Pages/testlar/Testlar";
 import "./App.css"
+import Auth from "./Auth/Auth";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
+          <Route path="/auth" element={<Auth />} />
 
           {/* <Route path="/al-bino" element={<AlBino />} />
           <Route path="/ajurrumiyyah" element={<Ajurrumiyyah />} />

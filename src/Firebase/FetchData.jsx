@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 import { getDatabase, ref, get, child } from "firebase/database";
-import { analytics } from "./firebaseConfig";
+import { analytics } from "../Firebase/firebaseConfig";
 
 const FetchData = () => {
   const [categories, setCategories] = useState([]);

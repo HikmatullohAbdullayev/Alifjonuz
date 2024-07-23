@@ -1,3 +1,4 @@
+import Auth from "../../Auth/Auth";
 import FetchData from "../../Firebase/FetchData";
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
 
             <div className="grid gap-[20px]">
                 <FetchData/>
+                <Auth/>
             </div>
         </div>
     );
