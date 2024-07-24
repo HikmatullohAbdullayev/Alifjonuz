@@ -1,11 +1,5 @@
-
-
 function CoursesSection() {
-    return (
-        <div>
-            
-        </div>
-    );
+  return <div></div>
 }
 
-export default CoursesSection;
+export default CoursesSection

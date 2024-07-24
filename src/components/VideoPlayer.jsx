@@ -1,16 +1,17 @@
-const VideoPlayer = ({ url }) => (
-  <div className="video-container">
+const VideoPlayer = ({ url, title }) => (
+  <div className="video-container  w-[750px] h-[400px] text-center mx-auto table1005:w-full mobile530:h-[300px]">
     <iframe
-      width={560}
-      height={315}
+      className="block w-full h-full"
       src={url}
-      title="YouTube video player"
       frameBorder={0}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerPolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope;"
       allowFullScreen
     />
+
+    <p className="text-start text-[18px] text-primary font-bold py-[16px] my-[10px] ">
+      {title}
+    </p>
   </div>
-);
+)
 
 export default VideoPlayer

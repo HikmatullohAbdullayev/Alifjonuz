@@ -1,38 +1,43 @@
-import  { useState } from 'react';
+import { useState } from 'react'
 
 const questions = [
   {
     id: 1,
     question: 'Qaysi dasturlash tili frontendda ishlatiladi?',
     options: ['Python', 'JavaScript', 'Java', 'C++'],
-    answer: 'JavaScript'
+    answer: 'JavaScript',
   },
   {
     id: 2,
     question: 'React nima?',
-    options: ['JavaScript kutubxonasi', 'Python moduli', 'CSS preprocessor', 'Node.js framework'],
-    answer: 'JavaScript kutubxonasi'
-  }
-];
+    options: [
+      'JavaScript kutubxonasi',
+      'Python moduli',
+      'CSS preprocessor',
+      'Node.js framework',
+    ],
+    answer: 'JavaScript kutubxonasi',
+  },
+]
 
 const Quetions = () => {
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [selectedOption, setSelectedOption] = useState(null);
-  const [score, setScore] = useState(0);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
+  const [selectedOption, setSelectedOption] = useState(null)
+  const [score, setScore] = useState(0)
 
   const handleAnswer = (answer) => {
     if (answer === questions[currentQuestionIndex].answer) {
-      setScore(score + 1);
+      setScore(score + 1)
     }
-    setSelectedOption(answer);
-  };
+    setSelectedOption(answer)
+  }
 
   const handleNextQuestion = () => {
-    setSelectedOption(null);
-    setCurrentQuestionIndex(currentQuestionIndex + 1);
-  };
+    setSelectedOption(null)
+    setCurrentQuestionIndex(currentQuestionIndex + 1)
+  }
 
-  const currentQuestion = questions[currentQuestionIndex];
+  const currentQuestion = questions[currentQuestionIndex]
 
   return (
     <div className="app">
@@ -51,9 +56,7 @@ const Quetions = () => {
             ))}
           </div>
           {selectedOption && (
-            <button onClick={handleNextQuestion}>
-              Keyingi savol
-            </button>
+            <button onClick={handleNextQuestion}>Keyingi savol</button>
           )}
         </div>
       ) : (
@@ -63,7 +66,7 @@ const Quetions = () => {
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default Quetions;
+export default Quetions

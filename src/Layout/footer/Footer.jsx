@@ -1,10 +1,5 @@
-
 function Footer() {
-    return (
-        <footer className="bg-slate-300 container">
-            Footer
-        </footer>
-    );
+  return <footer className="bg-slate-300 container">Footer</footer>
 }
 
-export default Footer;
+export default Footer
