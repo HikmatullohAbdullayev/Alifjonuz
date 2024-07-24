@@ -11,7 +11,7 @@ function MainLayout() {
             </p>
             <div className="">
             <Header/>
-            <main className="bg-bg">
+            <main className="bg-bg  max-h-full ">
                 <Outlet/>
             </main>
             </div>

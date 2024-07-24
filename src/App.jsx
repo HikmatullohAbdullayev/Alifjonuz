@@ -11,12 +11,15 @@ import Testlar from "./Pages/testlar/Testlar";
 import "./App.css"
 import Auth from "./Auth/Auth";
 
+
+
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
+          <Route path="courses/:title" element={<Kurslar />} />
           <Route path="/auth" element={<Auth />} />
 
           {/* <Route path="/al-bino" element={<AlBino />} />
@@ -24,7 +27,7 @@ function App() {
           <Route path="/ajurrumiyyah-sharhi" element={<AjurrumiyyaSharhi />} />
           <Route path="/at-tuhfatus-saniyya" element={<AtTuhfatusSaniyya />} /> */}
 
-          <Route path="/kurslar" element={<Kurslar />}/>
+          <Route path="/kitoblar" element={<Kurslar />}/>
             {/* <Route path="/boshqa-kurslar/oson-arab-tili" element={<OsonArabTili />} /> */}
           <Route path="/testlar" element={<Testlar />}></Route>
 

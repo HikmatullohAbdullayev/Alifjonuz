@@ -9,7 +9,7 @@ function Nav(props) {
                <NavLink to="/" className=' py-[6px] px-[10px] rounded-[20px] hover:bg-white'>Sarf-Nahv</NavLink> 
             </li>
             <li >
-               <NavLink to="/boshqa-kurslar" className=' py-[6px] px-[10px] rounded-[20px] hover:bg-white'>Boshqa kurslar</NavLink> 
+               <NavLink to="/kitoblar" className=' py-[6px] px-[10px] rounded-[20px] hover:bg-white'>Kitoblar</NavLink> 
             </li>
             <li >
                <NavLink to="/testlar" className=' py-[6px] px-[10px] rounded-[20px] hover:bg-white'>Testlar</NavLink> 
