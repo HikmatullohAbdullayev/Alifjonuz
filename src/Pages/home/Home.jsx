@@ -1,15 +1,15 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import dataCourses from '../../data/data.json'
-// import { Input } from "@/components/ui/input";
-// import {
-//   Select,
-//   SelectContent,
-//   SelectGroup,
-//   SelectItem,
-//   SelectTrigger,
-//   SelectValue,
-// } from "@/components/ui/select"
+import { Input } from "@/components/ui/input";
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
 import Img from '../../assets/onlineWeb.png'
 
 function Home() {
@@ -28,11 +28,11 @@ function Home() {
 
       <div className=" ">
         <div>
-          {/*  <div className="flex justify-evenly items-center py-[16px]">
+           <div className="flex justify-evenly items-center py-[16px]">
              <h3 className='text-[20px] px-[8px]  '>Barcha kurslar</h3>
             <Input type="text" placeholder="Qaysi kursni qidiryabsiz" className="max-w-[250px] bg-white rounded-lg " />
             <Select>
-      <SelectTrigger className="max-w-[250px] bg-white rounded-lg  hover:bg-primary" >
+      <SelectTrigger className="max-w-[250px] bg-white rounded-lg  hover:bg-gray-300" >
         <SelectValue placeholder="Darslikni tanlang" />
       </SelectTrigger>
       <SelectContent>
@@ -43,7 +43,7 @@ function Home() {
         </SelectGroup>
       </SelectContent>
     </Select> 
-          </div>*/}
+          </div>
 
           <div className="grid   gap-[12px] mt-5  grid-cols-[repeat(auto-fill,minmax(384px,1fr))] mobile530:grid-cols-[repeat(auto-fill,minmax(300px,1fr))]">
             {data.length > 0 ? (
