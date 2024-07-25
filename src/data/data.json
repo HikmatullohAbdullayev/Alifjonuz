@@ -454,96 +454,39 @@
           "url": "https://www.youtube.com/embed/PrZzS8lgWOg?si=VOAdcLFryge5Lwre"
         }
       ]
+    }
+   
+  ],
+  "books": [
+    {
+      "id": "1",
+      "url": "https://arabic.uz/kitoblar/durus-nahv.pdf",
+      "name": "Durus nahv",
+      "type": "Nahv",
+      "manba": "Arabic uz"
     },
     {
-      "categoryId": 4,
-      "categoryTitle": "Yangi kurs 2",
-      "categoryType": "sarf",
-      "lessonsCount": 4,
-      "source": "Yangi manba",
-      "completed": false,
-      "lessons": [
-        {
-          "id": 1,
-          "title": "Yangi dars 1",
-          "url": "https://www.example.com/lesson1"
-        },
-        {
-          "id": 2,
-          "title": "Yangi dars 2",
-          "url": "https://www.example.com/lesson2"
-        },
-        {
-          "id": 3,
-          "title": "Yangi dars 3",
-          "url": "https://www.example.com/lesson3"
-        },
-        {
-          "id": 4,
-          "title": "Yangi dars 4",
-          "url": "https://www.example.com/lesson4"
-        }
-      ]
+      "id": "2",
+      "url": "https://arabic.uz/kitoblar/mabdaun-nahv-tugrilangan-va-tuldirilgan.pdf",
+      "name": "Mabdaʼun nahv",
+      "type": "Nahv",
+      "manba": "Arabic uz"
     },
     {
-      "categoryId": 5,
-      "categoryTitle": "Yangi kurs 3",
-      "categoryType": "Boshqa",
-      "lessonsCount": 2,
-      "source": "Yangi manba",
-      "completed": true,
-      "lessons": [
-        {
-          "id": 1,
-          "title": "Yangi dars 1",
-          "url": "https://www.example.com/lesson1"
-        },
-        {
-          "id": 2,
-          "title": "Yangi dars 2",
-          "url": "https://www.example.com/lesson2"
-        }
-      ]
+      "id": "3",
+      "url": "https://arabic.uz/kitoblar/oson-nahv.pdf",
+      "name": "Oson nahv - (Birinchi kitob)",
+      "type": "Nahv",
+      "manba": "Arabic uz"
     },
     {
-      "categoryId": 6,
-      "categoryTitle": "Yangi kurs 4",
-      "categoryType": "sarf",
-      "lessonsCount": 6,
-      "source": "Yangi manba",
-      "completed": false,
-      "lessons": [
-        {
-          "id": 1,
-          "title": "Yangi dars 1",
-          "url": "https://www.example.com/lesson1"
-        },
-        {
-          "id": 2,
-          "title": "Yangi dars 2",
-          "url": "https://www.example.com/lesson2"
-        },
-        {
-          "id": 3,
-          "title": "Yangi dars 3",
-          "url": "https://www.example.com/lesson3"
-        },
-        {
-          "id": 4,
-          "title": "Yangi dars 4",
-          "url": "https://www.example.com/lesson4"
-        },
-        {
-          "id": 5,
-          "title": "Yangi dars 5",
-          "url": "https://www.example.com/lesson5"
-        },
-        {
-          "id": 6,
-          "title": "Yangi dars 6",
-          "url": "https://www.example.com/lesson6"
-        }
-      ]
+      "id": "4",
+      "url": "http",
+      "name": "Oson",
+      "type": "Nahv",
+      "manba": "Arabic uz"
     }
   ]
 }
+
+

@@ -10,6 +10,7 @@ import Kurslar from './Pages/Kurslar/Kurslar'
 import Testlar from './Pages/testlar/Testlar'
 import './App.css'
 import Auth from './Auth/Auth'
+import Books from './Pages/Books/Books'
 
 function App() {
   return (
@@ -20,13 +21,9 @@ function App() {
           <Route path="courses/:title" element={<Kurslar />} />
           <Route path="/auth" element={<Auth />} />
 
-          {/* <Route path="/al-bino" element={<AlBino />} />
-          <Route path="/ajurrumiyyah" element={<Ajurrumiyyah />} />
-          <Route path="/ajurrumiyyah-sharhi" element={<AjurrumiyyaSharhi />} />
-          <Route path="/at-tuhfatus-saniyya" element={<AtTuhfatusSaniyya />} /> */}
-
-          <Route path="/kitoblar" element={<Kurslar />} />
-          {/* <Route path="/boshqa-kurslar/oson-arab-tili" element={<OsonArabTili />} /> */}
+          <Route path="/Kurslar" element={<Kurslar />} />
+          <Route path="/kitoblar" element={<Books />} />
+          
           <Route path="/testlar" element={<Testlar />}></Route>
 
           <Route path="*" element={<h1>sahifa yo`q</h1>} />

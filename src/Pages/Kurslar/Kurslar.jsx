@@ -43,7 +43,7 @@ function Kurslar() {
         )}
 
         {filteredData ? (
-          <div className="w-[450px]  h-[500px] overflow-y-scroll table1005:w-full">
+          <div className="w-[450px]  h-[500px] overflow-y-scroll  table1005:w-full">
             {filteredData.lessons.length > 0 ? (
               filteredData.lessons.map((lesson) => (
                 <div
