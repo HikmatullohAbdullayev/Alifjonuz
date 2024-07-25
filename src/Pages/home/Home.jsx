@@ -16,7 +16,7 @@ function Home() {
   const [data, setData] = useState(dataCourses.courses) // dataCoursesni to'g'ridan-to'g'ri ishlatish
 
   return (
-    <div className="container">
+    <div className="container mt-[20px] mb-[50px]">
       <div className="text-center mx-auto  max-w-[400px]">
         <h1 className="font-semibold text-[36px] text-primary">
           Zamaxshariy Edu
@@ -59,11 +59,11 @@ function Home() {
                         src={Img}
                         alt="img"/>
                     </div>
-                    <h2 className="text-[24px] mt-[16px] text-primary font-bold mobile530:text-[20px] ">
+                    <h2 className="text-[24px] mt-[16px] text-primary font-semibold mobile530:text-[20px] ">
                       {item.categoryTitle}
                     </h2>
                     <p className="text-[18px] text-gray-700  mobile530:text-[14px]">
-                      <span className="font-semibold text-[20px] text-teal mobile530:text-[16px]">
+                      <span className="font-medium text-[20px] text-teal mobile530:text-[16px]">
                         Fan:
                       </span>{' '}
                       {item.categoryType}

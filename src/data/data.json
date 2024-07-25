@@ -456,37 +456,8 @@
       ]
     }
    
-  ],
-  "books": [
-    {
-      "id": "1",
-      "url": "https://arabic.uz/kitoblar/durus-nahv.pdf",
-      "name": "Durus nahv",
-      "type": "Nahv",
-      "manba": "Arabic uz"
-    },
-    {
-      "id": "2",
-      "url": "https://arabic.uz/kitoblar/mabdaun-nahv-tugrilangan-va-tuldirilgan.pdf",
-      "name": "Mabdaʼun nahv",
-      "type": "Nahv",
-      "manba": "Arabic uz"
-    },
-    {
-      "id": "3",
-      "url": "https://arabic.uz/kitoblar/oson-nahv.pdf",
-      "name": "Oson nahv - (Birinchi kitob)",
-      "type": "Nahv",
-      "manba": "Arabic uz"
-    },
-    {
-      "id": "4",
-      "url": "http",
-      "name": "Oson",
-      "type": "Nahv",
-      "manba": "Arabic uz"
-    }
   ]
+ 
 }
 
 

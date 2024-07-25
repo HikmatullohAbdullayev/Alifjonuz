@@ -11,7 +11,7 @@ function MainLayout() {
         </p>
         <div className="">
           <Header />
-          <main className="  max-h-full ">
+          <main className="  max-h-full h-full">
             <Outlet />
           </main>
         </div>
