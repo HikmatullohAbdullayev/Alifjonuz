@@ -35,7 +35,11 @@ function Kurslar() {
 
       <div className="flex justify-between items-start gap-[16px] mx-auto table1005:flex-col ">
         {selectedLesson && (
-          <VideoPlayer url={selectedLesson.url} title={selectedLesson.title} number={selectedLesson.id} />
+          <VideoPlayer
+            url={selectedLesson.url}
+            title={selectedLesson.title}
+            number={selectedLesson.id}
+          />
         )}
 
         {filteredData ? (

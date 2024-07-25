@@ -9,7 +9,7 @@ const VideoPlayer = ({ url, title, number }) => (
     />
 
     <p className="text-start text-[18px] text-primary font-semibold py-[16px] my-[10px] ">
-     <span className="font-bold">{number}-Dars: </span> {title}
+      <span className="font-bold">{number}-Dars: </span> {title}
     </p>
   </div>
 )
