@@ -52,13 +52,12 @@ function Home() {
                   className="border  rounded-[12px] mx-auto bg-white px-[10px] py-[8px] "
                   key={item.categoryId}
                 >
-                  <li>
-                    <div className="rounded-lg">
+                  <li className='max-w-[380px] '>
+                    <div className="rounded-[50px] p-[10px] ">
                       <img
-                        className=" rounded-[20px]  object-cover"
+                        className=" rounded-[20px]  w-full max-h-[250px]   object-cover"
                         src={Img}
-                        alt="img"
-                      />
+                        alt="img"/>
                     </div>
                     <h2 className="text-[24px] mt-[16px] text-primary font-bold mobile530:text-[20px] ">
                       {item.categoryTitle}
@@ -69,8 +68,8 @@ function Home() {
                       </span>{' '}
                       {item.categoryType}
                     </p>
-                    <p className="text-[18px] text-gray-700  mobile530:text-[14px]">
-                      <span className="font-semibold text-[20px] text-teal mobile530:text-[16px]">
+                    <p className="text-[18px] text-gray-700 text-wrap mobile530:text-[14px]">
+                      <span className="font-semibold  text-[20px] text-teal mobile530:text-[16px]">
                         Manba:
                       </span>{' '}
                       {item.source}
