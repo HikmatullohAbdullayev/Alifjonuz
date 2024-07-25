@@ -28,14 +28,14 @@ function Kurslar() {
   const filteredData = data.find((item) => item.categoryTitle === title)
 
   return (
-    <div className="container table1005:w-full">
+    <div className="container my-[20px] table1005:w-full">
       <h1 className="text-[24px] text-primary font-semibold py-[12px] my-[12px]">
         Kurs Sarlavhasi: {title}
       </h1>
 
       <div className="flex justify-between items-start gap-[16px] mx-auto table1005:flex-col ">
         {selectedLesson && (
-          <VideoPlayer url={selectedLesson.url} title={selectedLesson.title} />
+          <VideoPlayer url={selectedLesson.url} title={selectedLesson.title} number={selectedLesson.id} />
         )}
 
         {filteredData ? (

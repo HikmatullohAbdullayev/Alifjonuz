@@ -158,60 +158,300 @@
     {
       "categoryId": 2,
       "categoryTitle": "Al bino",
-      "categoryType": "sarf",
-      "lessonsCount": 5,
+      "categoryType": "Sarf",
+      "lessonsCount": 18,
       "source": "Baynul lisan",
       "completed": true,
       "lessons": [
         {
+          "id": 1,
+          "title": "“Al-Bino” sarf matni: Kirish",
+          "url": "https://www.youtube.com/embed/2cx_6T4NqnA?si=ISWeLl_phd7UMXad"
+        },
+        {
+          "id": 2,
+          "title": "Sarf ilmining asoslari va “sarf”ning ta’rifi",
+          "url": "https://www.youtube.com/embed/VZnigQr9Qzo?si=1EilZs40tyXnD-zX"
+        },
+        {
+          "id": 3,
+          "title": "Sarf ilmining asoslari, sarfning ta’rifi (b) va mavzusi",
+          "url": "https://www.youtube.com/embed/ws1nntlLcvI?si=NQaff38Ryo5S11pB"
+        },
+        {
           "id": 4,
-          "title": "Ismlarda ko'plik",
-          "url": "https://www.youtube.com/embed/PjhxCUOGX6M?si=RzT9s3b947cAfOoQ"
+          "title": "Sarf ilmining asoslari (c): samarasi, fazilati, o‘rganish hukmi va masalalari",
+          "url": "https://www.youtube.com/embed/k0OTQBGl1tw?si=xVztrLpus4GKwGKw"
         },
         {
           "id": 5,
-          "title": "Ma'rifa va nakra ismlar",
-          "url": "https:///www.youtube.com/embed/vvq9BD4cm68?si=pueX_pJCbeCv-INW"
+          "title": "Sarfga oid mezon (a)",
+          "url": "https://www.youtube.com/embed/FgRRVDdmJhU?si=PqUU8u3I7KYXkCVO"
         },
         {
           "id": 6,
-          "title": "Bino va e'rob tushunchasi. Mabniy va mu'rab kalimalar.",
-          "url": "https:///www.youtube.com/embed/Nd1SmCpLpE4?si=iE4z24pP6YZq5xzr"
+          "title": "Sarfga oid mezon (b)",
+          "url": "https://www.youtube.com/embed/8gF3ML5a0nU?si=Xn1-Akn2Er3d8-LY"
         },
         {
           "id": 7,
-          "title": "Mu'rab kalimalar. E'roblarning turlari.",
-          "url": "https:///www.youtube.com/embed/YgAPQlPFJd4?si=wPESLLbJ_GdB7Un2"
+          "title": "Sarfga oid mezon (c)",
+          "url": "https://www.youtube.com/embed/mIG9UQrbt9E?si=S2W_3Eh6Q5FtVIkF"
         },
         {
           "id": 8,
-          "title": "Kalom va uning turlari. Umumiy takrorlash",
-          "url": "https:///www.youtube.com/embed/jZuDdPUVyEs?si=eW73r_Pxy8GApYv7"
+          "title": "Sarfga oid mezon (d)",
+          "url": "https://www.youtube.com/embed/gzhJoo9_L-c?si=Gu3V4fkHArRiE0ez"
+        },
+        {
+          "id": 9,
+          "title": "Sulosiy mujarradning birinchi va ikkinchi bobi",
+          "url": "https://www.youtube.com/embed/v94S8XeyfbE?si=yZxzy0XIuVlPV6PJ"
+        },
+        {
+          "id": 10,
+          "title": "Sulosiy mujarradning 3, 4, 5 va 6-boblari",
+          "url": "https://www.youtube.com/embed/C-8fbH_gY1A?si=Lsg4J_BhJoiPd5ff"
+        },
+        {
+          "id": 11,
+          "title": "Sulosiy mazidning zoida harffi bitta bo‘lga 3 ta bobi",
+          "url": "https://www.youtube.com/embed/wID5UQxAC-I?si=6VAXoEbdWKtl38LC"
+        },
+        {
+          "id": 12,
+          "title": "Sulosiy mazidning zoida harfi ikkita bo‘lgan 5 ta bobi",
+          "url": "https://www.youtube.com/embed/knVImmXiCoU?si=D4KGQfBM7ITE1rrj"
+        },
+        {
+          "id": 13,
+          "title": "Sulosiy mazidning zoida harfi uchta bo‘lgan 4 ta bobi",
+          "url": "https://www.youtube.com/embed/apTF4k5qwLw?si=J9vg5uGownf6HUfJ"
+        },
+        {
+          "id": 14,
+          "title": "Ruboiy mujarrad bobi va (دَحْرَجَ) ga ilhoq qilingan 6 ta bob",
+          "url": "https://www.youtube.com/embed/klvOYin7rbo?si=8TP47rTRDetSo864"
+        },
+        {
+          "id": 15,
+          "title": "Ruboiy mazidning uchta bobi",
+          "url": "https://www.youtube.com/embed/Ym-NS3mZNus?si=WfvdgOy9DKtC-Rll"
+        },
+        {
+          "id": 16,
+          "title": "Ruboiy mazid (تَدَحْرَجَ/احْرَنْجَمَ) ga ilhoq qilingan 5 (+2) ta bob",
+          "url": "https://www.youtube.com/embed/gfDmHkpkIoM?si=-E63lVFKetN3C-7w"
+        },
+        {
+          "id": 17,
+          "title": "Fe’llarning illat harflari bor yoki yo‘qligiga qarab turlarga bo‘linishi",
+          "url": "https://www.youtube.com/embed/gR11mxE0x6Y?si=s1Te028nl_aGURnb"
+        },
+        {
+          "id": 18,
+          "title": "Yakun: «Al-Bino» matnining talxisi",
+          "url": "https://www.youtube.com/embed/-Wf9rmlcfo8?si=EnN8nUTbVt-SS_Hg"
         }
       ]
     },
     {
       "categoryId": 3,
-      "categoryTitle": "Yangi kurs 1",
-      "categoryType": "Boshqa",
-      "lessonsCount": 3,
-      "source": "Yangi manba",
-      "completed": false,
+      "categoryTitle": "Ajurrumiyya sharhi",
+      "categoryType": "Nahv",
+      "lessonsCount": 38,
+      "source": "Hakim Shoshiy",
+      "completed": true,
       "lessons": [
         {
           "id": 1,
-          "title": "Yangi dars 1",
-          "url": "https://www.example.com/lesson1"
+          "title": "Kalom ta'rifi",
+          "url": "https://www.youtube.com/embed/LSWr63CDwVg?si=fEZZLNmK6b7UUVBc"
         },
         {
           "id": 2,
-          "title": "Yangi dars 2",
-          "url": "https://www.example.com/lesson2"
+          "title": "Kalom qismlari",
+          "url": "https://www.youtube.com/embed/L2lNqZZu5Rc?si=L5fanB95WZQu9w8R"
         },
         {
           "id": 3,
-          "title": "Yangi dars 3",
-          "url": "https://www.example.com/lesson3"
+          "title": "Ism alomatlari",
+          "url": "https://www.youtube.com/embed/yTp61dMIACo?si=E5HPWVaUOcFvl8RJ"
+        },
+        {
+          "id": 4,
+          "title": "Fe'l va harf alomatlari",
+          "url": "https://www.youtube.com/embed/ae3QaY_ERSI?si=VZSIw0nAD420V2ZL"
+        },
+        {
+          "id": 5,
+          "title": "E'rob va bino",
+          "url": "https://www.youtube.com/embed/Yj3SvWaCA8A?si=cRuXZXzgj3DTaQKR"
+        },
+        {
+          "id": 6,
+          "title": "E'rob turlari",
+          "url": "https://www.youtube.com/embed/dmW5_dDT_EA?si=2AUCklIF96xJLNSX"
+        },
+        {
+          "id": 7,
+          "title": "Ko'plik",
+          "url": "https://www.youtube.com/embed/OKZ2X-3B-k8?si=K1yWcEVPfSjwD2GG"
+        },
+        {
+          "id": 8,
+          "title": "E'rob alomatlari (a)",
+          "url": "https://www.youtube.com/embed/4eJyctLbeJc?si=UFEN64Jy_y7cW9zf"
+        },
+        {
+          "id": 9,
+          "title": "E'rob alomatlari (b)",
+          "url": "https://www.youtube.com/embed/NEOghxfRdZs?si=Gv8koxILLJiTR9F8"
+        },
+        {
+          "id": 10,
+          "title": "E'rob alomatlari (c)",
+          "url": "https://www.youtube.com/embed/PcF-twcz2VM?si=G0eogx12Z7go8siX"
+        },
+        {
+          "id": 11,
+          "title": "Mu'roblar",
+          "url": "https://www.youtube.com/embed/iRmbz2q7Xhc?si=o7ukkAuHsoH1nXvB"
+        },
+        {
+          "id": 12,
+          "title": "Harakatlar bilan e'roblanadiganlar",
+          "url": "https://www.youtube.com/embed/mGhvTRwD40U?si=SQsvqJ-hJS8nAH4h"
+        },
+        {
+          "id": 13,
+          "title": "Harflar bilan e'roblanadiganlar",
+          "url": "https://www.youtube.com/embed/j4Q0VTLDm_c?si=yqES-Tmso4Uf8spv"
+        },
+        {
+          "id": 14,
+          "title": "Fe'llar bobi",
+          "url": "https://www.youtube.com/embed/yst_36RKUUk?si=y3DapAqSVgFJ30FH"
+        },
+        {
+          "id": 15,
+          "title": "Muzoriyni nasb qiluvchilar",
+          "url": "https://www.youtube.com/embed/dsi1G1IyG-E?si=I0Ww8HSXHuigh9qW"
+        },
+        {
+          "id": 16,
+          "title": "Jazm qiluvchilar",
+          "url": "https://www.youtube.com/embed/AcRgwWvLl68?si=WswsWER-EgFxrVSK"
+        },
+        {
+          "id": 17,
+          "title": "Raf ismlar",
+          "url": "https://www.youtube.com/embed/7XURkkuraa0?si=JGrjpiCOMfQPnlz_"
+        },
+        {
+          "id": 18,
+          "title": "Noibi foil",
+          "url": "https://www.youtube.com/embed/NpnJWZZvSwo?si=SdYI8i2sI5L9CWX5"
+        },
+        {
+          "id": 19,
+          "title": "Mubtado va xabar",
+          "url": "https://www.youtube.com/embed/CA-3Bfknmtk?si=Q-hVUL0FO1BFeMjV"
+        },
+        {
+          "id": 20,
+          "title": "Nasx qiluvchilar",
+          "url": "https://www.youtube.com/embed/PDj3ShGoOZ0?si=LE4CZOWtvHQyUIUv"
+        },
+        {
+          "id": 21,
+          "title": "Sifat",
+          "url": "https://www.youtube.com/embed/vB-jTV2IKyM?si=IqelH-ElDo1uap2x"
+        },
+        {
+          "id": 22,
+          "title": "Atf",
+          "url": "https://www.youtube.com/embed/yM-Mlku1JNo?si=WWHgb31kNz0TM1pi"
+        },
+        {
+          "id": 23,
+          "title": "Ta'kid",
+          "url": "https://www.youtube.com/embed/xfETo_QPkX8?si=mOywRfu4qhLOyfYI"
+        },
+        {
+          "id": 24,
+          "title": "Badal",
+          "url": "https://www.youtube.com/embed/JlS4EJWXVjc?si=gYg0XKmu4AaUvvKT"
+        },
+        {
+          "id": 25,
+          "title": "Maf'ul bihi",
+          "url": "https://www.youtube.com/embed/HWnMKEha6Gg?si=m4PEy1UaQCySjayO"
+        },
+        {
+          "id": 26,
+          "title": "Maf'ul mutlaq",
+          "url": "https://www.youtube.com/embed/XRkU5dB8Ka0?si=muCYw4ci7EG3m3m8"
+        },
+        {
+          "id": 27,
+          "title": "Maf'ul fihi",
+          "url": "https://www.youtube.com/embed/ZvsE5xWXlY8?si=OysCytTwPMYf32Xk"
+        },
+        {
+          "id": 28,
+          "title": "Hol",
+          "url": "https://www.youtube.com/embed/tRGxlUxuIQo?si=BHhjo63TJlTJTF52"
+        },
+        {
+          "id": 29,
+          "title": "Tamyiz",
+          "url": "https://www.youtube.com/embed/qySViney97Y?si=Jz1kLOc9QTE4Mcfu"
+        },
+        {
+          "id": 30,
+          "title": "Istisno",
+          "url": "https://www.youtube.com/embed/c9qSQ9F-B4w?si=wWv9RpSDvwiY3l5c"
+        },
+        {
+          "id": 31,
+          "title": "Laa nafiy jins",
+          "url": "https://www.youtube.com/embed/lRkL-1XuKXI?si=mXJZ63073ypcn_ju"
+        },
+        {
+          "id": 32,
+          "title": "Munodo",
+          "url": "https://www.youtube.com/embed/HHwWIuUzuQ8?si=flZ3qBlJbBlmqN9k"
+        },
+        {
+          "id": 33,
+          "title": "Maf'ul liajlihi",
+          "url": "https://www.youtube.com/embed/4iDTd1nZQ48?si=aNW9itfZVW5EwBLb"
+        },
+        {
+          "id": 34,
+          "title": "Maf'ul ma'ahu",
+          "url": "https://www.youtube.com/embed/aniIP0WndKI?si=4anYEbmpO9ZdfPH-"
+        },
+        {
+          "id": 35,
+          "title": "Jar ismlar",
+          "url": "https://www.youtube.com/embed/plH6yyyDv_w?si=h90pB70BEa8q4Bkh"
+        },
+        {
+          "id": 36,
+          "title": "Muzof ilayhi",
+          "url": "https://www.youtube.com/embed/2yjqWJqXW5E?si=mP_i2SFmUag1uwxl"
+        },
+        {
+          "id": 37,
+          "title": "G'oyri munsarif (Yakun)",
+          "url": "https://www.youtube.com/embed/OfwQv4UB8Ys?si=Ver30tc1vqX5R1yk"
+        },
+        {
+          "id": 38,
+          "title": "Muqaddima",
+          "url": "https://www.youtube.com/embed/PrZzS8lgWOg?si=VOAdcLFryge5Lwre"
         }
       ]
     },

@@ -5,13 +5,13 @@ import Footer from '../footer/Footer'
 function MainLayout() {
   return (
     <div className="wrapper">
-      <div className=" bg-blue-50">
+      <div className=" bg-bg">
         <p className="bg-primary text-white text-center py-2">
           Platforma test rejimida ishlamoqda
         </p>
         <div className="">
           <Header />
-          <main className="bg-bg  max-h-full ">
+          <main className="  max-h-full ">
             <Outlet />
           </main>
         </div>

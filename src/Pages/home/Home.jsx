@@ -79,7 +79,7 @@ function Home() {
                       <span className="font-semibold text-[20px] text-teal mobile530:text-[16px]">
                         Darslar soni:
                       </span>{' '}
-                      {item.lessonsCount}
+                      {item.lessons.length}
                     </p>
                     <p className="text-[18px] text-gray-700  mobile530:text-[14px]">
                       <span className="font-semibold text-[20px] text-teal mobile530:text-[16px]">
