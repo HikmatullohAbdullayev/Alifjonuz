@@ -54,7 +54,9 @@ function CoursesSection({ data, Img }) {
           </ul>
         ))
       ) : (
-        <p>Ma`lumot topilmadi.</p>
+        <div className="text-center border bg-white rounded-2xl py-[12px] ">
+          <p className="mx-auto ">Ma`lumot topilmadi.</p>
+        </div>
       )}
     </div>
   )

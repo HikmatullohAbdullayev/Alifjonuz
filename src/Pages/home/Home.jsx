@@ -46,6 +46,7 @@ function Home() {
           <SearchInput
             handleInputChange={handleInputChange}
             searchTerm={searchTerm}
+            title={'kursni'}
           />
           <div className="max-w-[250px] w-full">
             <SelectType handleSelectChange={handleSelectChange} />

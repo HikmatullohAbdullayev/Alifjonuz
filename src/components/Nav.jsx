@@ -10,7 +10,7 @@ function Nav(props) {
             to="/"
             className=" py-[6px] px-[10px] rounded-[20px] hover:bg-white"
           >
-            Sarf-Nahv
+            Kurslar
           </NavLink>
         </li>
         <li>

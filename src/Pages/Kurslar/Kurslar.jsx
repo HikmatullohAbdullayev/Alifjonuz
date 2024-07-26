@@ -43,7 +43,7 @@ function Kurslar() {
         )}
 
         {filteredData ? (
-          <div className="w-[450px]  h-[500px] overflow-y-scroll  table1005:w-full">
+          <div className="w-[450px]  h-[500px] overflow-y-scroll  table1005:w-full table1005:mt-[100px]">
             {filteredData.lessons.length > 0 ? (
               filteredData.lessons.map((lesson) => (
                 <div
@@ -51,7 +51,7 @@ function Kurslar() {
                   className="bg-white text-primary w-full rounded-[12px] py-[18px] px-[12px]  border "
                 >
                   <Button onClick={() => setSelectedLesson(lesson)}>
-                    <p className="text-[18px] text-wrap text-start leading-[28px] ">
+                    <p className="text-[18px] text-wrap text-start leading-[20px] pb-[20px] ">
                       {lesson.title}
                     </p>
                   </Button>
