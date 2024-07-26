@@ -41,7 +41,7 @@ function Home() {
       </div>
 
       <div>
-        <div className="flex justify-evenly items-center gap-[20px] py-[16px] table845:flex-col">
+        <div className="flex justify-evenly items-center gap-[20px] py-[16px] table845:flex-col mobil640:gap-[10px]">
           <h3 className="text-[20px] px-[8px]">Barcha kurslar</h3>
           <SearchInput
             handleInputChange={handleInputChange}

@@ -3,12 +3,12 @@ import React from 'react'
 
 function BooksSection({ booksData, bookImg }) {
   return (
-    <div className="flex flex-wrap  gap-[20px]">
+    <div className="flex flex-wrap  gap-[20px] ">
       {booksData.length > 0 ? (
         booksData.map((book) => (
           <div
             key={book.id}
-            className="bg-white w-[240px] mx-auto px-[12px] py-[8px] grid gap-[8px] rounded-[14px]"
+            className="bg-white w-[240px] mx-auto px-[12px] py-[18px] grid gap-[8px] rounded-[14px]"
           >
             <div className="w-[200px] h-[180px] text-center mx-auto">
               <img
@@ -37,7 +37,7 @@ function BooksSection({ booksData, bookImg }) {
           </div>
         ))
       ) : (
-        <div className="text-center border bg-white rounded-2xl py-[12px] w-full ">
+        <div className="text-center border bg-white rounded-2xl py-[12px] w-full my-[30px]">
           <p className="mx-auto text-[20px] ">Ma`lumot topilmadi.</p>
         </div>
       )}

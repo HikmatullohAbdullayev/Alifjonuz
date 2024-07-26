@@ -27,9 +27,9 @@ function Books() {
   }
 
   return (
-    <section className="container h-screen max-h-full">
-      <div className="flex justify-evenly items-center gap-[20px] py-[16px] table845:flex-col">
-        <h3 className="text-center font-medium text-[24px] text-primary py-[20px]">
+    <section className="container  max-h-full  mb-[40px]">
+      <div className="flex justify-evenly items-center gap-[20px] py-[16px] table845:flex-col mobil640:py-[6px] mobil640:gap-[14px]">
+        <h3 className="text-center font-medium text-[24px] text-primary py-[20px] mobil640:py-[16px]">
           Kitoblar
         </h3>
         <SearchInput

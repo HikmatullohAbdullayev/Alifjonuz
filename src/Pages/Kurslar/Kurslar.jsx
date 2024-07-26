@@ -28,8 +28,8 @@ function Kurslar() {
   const filteredData = data.find((item) => item.categoryTitle === title)
 
   return (
-    <div className="container my-[20px] table1005:w-full">
-      <h1 className="text-[24px] text-primary font-semibold py-[12px] my-[12px]">
+    <div className="container my-[20px] table1005:w-full mobil640:my-[10px]">
+      <h1 className="text-[24px] text-primary font-semibold py-[12px] my-[12px] mobil640:my-[8px] mobil640:text-[18px]">
         Kurs Sarlavhasi: {title}
       </h1>
 
@@ -51,7 +51,7 @@ function Kurslar() {
                   className="bg-white text-primary w-full rounded-[12px] py-[18px] px-[12px]  border "
                 >
                   <Button onClick={() => setSelectedLesson(lesson)}>
-                    <p className="text-[18px] text-wrap text-start leading-[20px] pb-[20px] ">
+                    <p className="text-[18px] text-wrap text-start leading-[20px] pb-[20px] mobil640:text-[16px] mobil640:pb-[18px] ">
                       {lesson.title}
                     </p>
                   </Button>

@@ -6,6 +6,7 @@ import Testlar from './Pages/testlar/Testlar'
 import './App.css'
 import Auth from './Auth/Auth'
 import Books from './Pages/Books/Books'
+import NotFound from './Pages/NotFound/NotFound'
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
 
           <Route path="/testlar" element={<Testlar />}></Route>
 
-          <Route path="*" element={<h1>sahifa yo`q</h1>} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </>

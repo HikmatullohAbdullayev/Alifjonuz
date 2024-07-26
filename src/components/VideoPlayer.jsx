@@ -8,7 +8,7 @@ const VideoPlayer = ({ url, title, number }) => (
       allowFullScreen
     />
 
-    <p className="text-start text-[18px] text-primary font-semibold align-middle py-[16px] my-[10px] ">
+    <p className="text-start text-[18px] text-primary font-semibold align-middle py-[16px] my-[10px]  mobil640:text-[16px] mobil640:my-[8px] mobil640:py-[12px]">
       <span className="font-bold  block ">{number}-Dars: </span> {title}
     </p>
   </div>
