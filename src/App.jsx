@@ -18,7 +18,7 @@ function App() {
 
           <Route path="/Kurslar" element={<Kurslar />} />
           <Route path="/kitoblar" element={<Books />} />
-          
+
           <Route path="/testlar" element={<Testlar />}></Route>
 
           <Route path="*" element={<h1>sahifa yo`q</h1>} />
