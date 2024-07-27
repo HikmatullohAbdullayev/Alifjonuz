@@ -27,6 +27,139 @@
       "name": "Avomil",
       "type": "Nahv",
       "manba": "Arabic uz"
+    },
+    {
+      "id": "5",
+      "url": "https://arabic.uz/kitoblar/ajrumiyya-matni.pdf",
+      "name": "Ajrumiya matni",
+      "type": "Nahv",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "6",
+      "url": "https://arabic.uz/kitoblar/arab-tili-hadichai%20kubro.pdf",
+      "name": "Arab tili (Hadichai kubro)",
+      "type": "Boshqa",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "7",
+      "url": "https://arabic.uz/kitoblar/bidon.pdf",
+      "name": "Bidon",
+      "type": "Sarf",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "8",
+      "url": "https://arabic.uz/kitoblar/boshlangich-sarf.pdf",
+      "name": "Boshlang‘ich sarf",
+      "type": "Sarf",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "9",
+      "url": "https://arabic.uz/kitoblar/boblar-manolari.pdf",
+      "name": "Boblar maʼnolari",
+      "type": "Sarf",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "10",
+      "url": "https://arabic.uz/kitoblar/janoh_ut-tolib.pdf",
+      "name": "Janohut tolib",
+      "type": "Sarf",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "11",
+      "url": "https://arabic.uz/kitoblar/klassik-matnlar.pdf",
+      "name": "Klassik matnlar",
+      "type": "Boshqa",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "12",
+      "url": "https://arabic.uz/kitoblar/istiftoh.pdf",
+      "name": "Istiftoh",
+      "type": "Sarf",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "13",
+      "url": "https://arabic.uz/kitoblar/tema-buyicha-lugat.pdf",
+      "name": "Mavzularga oid lug‘at",
+      "type": "Lug'at",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "14",
+      "url": "https://arabic.uz/kitoblar/mukammal-sarf-darsligi.pdf",
+      "name": "Mukammal sarf darsligi",
+      "type": "Sarf",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "15",
+      "url": "https://arabic.uz/kitoblar/suzlashgich.pdf",
+      "name": "So‘zlashgich",
+      "type": "Lug'at",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "16",
+      "url": "https://arabic.uz/kitoblar/shifohiyya-1.pdf",
+      "name": "Shifohiya 1-qism",
+      "type": "Darslik",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "17",
+      "url": "https://arabic.uz/kitoblar/shifohiyya-2.pdf",
+      "name": "Shifohiya 2-qism",
+      "type": "Darslik",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "18",
+      "url": "https://arabic.uz/kitoblar/mabdaul-qiroat-zaruriy-nahv-va-sarf-qoidalari-bilan.pdf",
+      "name": "Mabdaul qiroa (Sarf va nahv asosida)",
+      "type": "Sarf",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "19",
+      "url": "https://arabic.uz/kitoblar/mabdal-qiroat-1-yangisi.pdf",
+      "name": "Mabdaul qiroa (Tarkib qoidalari)",
+      "type": "Darslik",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "20",
+      "url": "https://arabic.uz/kitoblar/mabdaul-qiroat-1.pdf",
+      "name": "Mabdaul qiroat-1 tarjimasi bilan",
+      "type": "Darslik",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "21",
+      "url": "https://arabic.uz/kitoblar/mabdaul-qiroat-2.pdf",
+      "name": "Mabdaul qiroat-2 tarjimasi bilan",
+      "type": "Darslik",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "22",
+      "url": "https://arabic.uz/kitoblar/mabdaul-qiroat-3.pdf",
+      "name": "Mabdaul qiroat-3 tarjimasi bilan",
+      "type": "Darslik",
+      "manba": "Arabic uz"
+    },
+    {
+      "id": "23",
+      "url": "https://arabic.uz/kitoblar/mabdal-sarf-tugrilangan-va-tuldirilgan.pdf",
+      "name": "Mabdaus - sarf",
+      "type": "Sarf",
+      "manba": "Arabic uz"
     }
   ]
 }

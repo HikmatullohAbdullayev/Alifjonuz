@@ -12,6 +12,8 @@ function SelectType({ handleSelectChange }) {
         </option>
         <option value="Sarf">Sarf</option>
         <option value="Nahv">Nahv</option>
+        <option value="Darslik">Darslik</option>
+        <option value="Lug'at">Lug'at</option>
         <option value="Boshqa">Boshqa</option>
       </select>
       <div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
