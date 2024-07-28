@@ -9,7 +9,13 @@ import {
   PaginationPrevious,
 } from '@/components/ui/pagination'
 
-function Paginations({ currentPage, totalItems, itemsPerPage, itemsPerPageMobile, onPageChange }) {
+function Paginations({
+  currentPage,
+  totalItems,
+  itemsPerPage,
+  itemsPerPageMobile,
+  onPageChange,
+}) {
   const totalPages = Math.ceil(totalItems / itemsPerPage || itemsPerPageMobile)
 
   const handlePageChange = (page) => {
