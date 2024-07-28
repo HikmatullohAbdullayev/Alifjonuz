@@ -7,14 +7,11 @@ function SelectType({ handleSelectChange }) {
         className="w-full h-10 pl-3 pr-6 text-base placeholder-gray-600 bg-white border rounded-lg appearance-none focus:shadow-outline"
         onChange={handleSelectChange}
       >
-        <option value="" disabled selected>
-          Darslikni tanlang
-        </option>
         <option value="Sarf">Sarf</option>
         <option value="Nahv">Nahv</option>
         <option value="Lug'at">Lug'at</option>
         <option value="Darslik">Darslik</option>
-        <option value="Ilmiy">Ilmiy</option>
+        {/* <option value="Ilmiy">Ilmiy</option> */}
         <option value="Badiiy">Badiiy</option>
         <option value="Boshqa">Boshqa</option>
       </select>

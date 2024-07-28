@@ -1,11 +1,11 @@
 import { data } from 'autoprefixer'
 import React from 'react'
 
-function BooksSection({ booksData, bookImg }) {
+function BooksSection({ bookImg, currentItems }) {
   return (
     <div className="flex flex-wrap  gap-[20px] ">
-      {booksData.length > 0 ? (
-        booksData.map((book) => (
+      {currentItems.length > 0 ? (
+        currentItems.map((book) => (
           <div
             key={book.id}
             className="bg-white w-[240px] mx-auto px-[12px] py-[18px] grid gap-[8px] rounded-[14px]"

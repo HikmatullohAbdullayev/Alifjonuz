@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useLocation } from 'react-router-dom'
 import MainLayout from './Layout/MainLayout/MainLayout'
 import Home from './Pages/home/Home'
 import Kurslar from './Pages/Kurslar/Kurslar'
@@ -7,8 +7,14 @@ import './App.css'
 import Books from './Pages/Books/Books'
 import NotFound from './Pages/NotFound/NotFound'
 import Faq from './Pages/Faq/Faq'
+import { useEffect } from 'react'
 
 function App() {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
   return (
     <>
       <Routes>
