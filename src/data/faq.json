@@ -1,0 +1,34 @@
+{
+  "faqData": [
+    {
+      "id": 1,
+      "question": "Zamaxshariy Edu qanday loyiha?",
+      "answer": "Zamaxshariy Edu bu arab tilini rivojlantirish va uni keyingi bosqichga olib chiqishni maqsad qilgan loyiha."
+    },
+    {
+      "id": 2,
+      "question": "Loyiha kimlar uchun?",
+      "answer": "Arab tilini o'rganyotgan yoki o'rganmoqchi bo'lgan barcha uchun."
+    },
+    {
+      "id": 3,
+      "question": "Nimaga platformadagi ma'lumotlar boshqa saytlardan va YouTubedan olingan?",
+      "answer": "Loyiha hozirda test rejimida va bizda videokurs yozish va server uchun yetarli mablag' hali mavjud emas."
+    },
+    {
+      "id": 4,
+      "question": "Bu platforma yoki YouTubedan ko'rishni qanday farqi bor?",
+      "answer": "To'g'ri, darslarni YouTubedan ham ko'rsangiz bo'ladi, lekin YouTubeda sizni chalg'itadigon videolar ham chiqadi, bizda esa unday emas."
+    },
+    {
+      "id": 5,
+      "question": "Platformada yana qanday yangiliklar bo'ladi?",
+      "answer": "Yeterli mablag', texnik xodimlar va ustozlar yig'ilsa, yangi videokurslar, onlayn test ishlash, mobil ilova, audio kitoblar, elektron kitoblar va turli onlayn/offlayn tadbirlar."
+    },
+    {
+      "id": 6,
+      "question": "Sizlar bilan qanday bog'lansam bo'ladi?",
+      "answer": "Platformaning pastgi qismida bog'lanish uchun malumotlar berilgan."
+    }
+  ]
+}

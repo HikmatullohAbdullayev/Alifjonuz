@@ -1,17 +1,17 @@
 const footerData = [
   {
     id: 1,
-    title: "Kruslar",
+    title: 'Kruslar',
     url: '/',
   },
   {
     id: 2,
-    title: "Kitoblar",
+    title: 'Kitoblar',
     url: '/kitoblar',
   },
   {
     id: 3,
-    title: "Testlar",
+    title: 'Testlar',
     url: '/testlar',
   },
   {
@@ -19,7 +19,6 @@ const footerData = [
     title: "Ko'p berilgan savollar",
     url: '/faq',
   },
- 
 ]
 
 export default footerData

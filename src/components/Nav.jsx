@@ -23,10 +23,10 @@ function Nav(props) {
         </li>
         <li>
           <NavLink
-            to="/testlar"
+            to="/faq"
             className=" py-[6px] px-[10px] rounded-[20px] hover:bg-white"
           >
-            Testlar
+            Savollar
           </NavLink>
         </li>
       </ul>
