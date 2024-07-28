@@ -9,11 +9,11 @@ const footerData = [
     title: 'Kitoblar',
     url: '/kitoblar',
   },
-  {
-    id: 3,
-    title: 'Testlar',
-    url: '/testlar',
-  },
+  // {
+  //   id: 3,
+  //   title: 'Testlar',
+  //   url: '/testlar',
+  // },
   {
     id: 4,
     title: "Ko'p berilgan savollar",
