@@ -50,7 +50,7 @@ function Kurslar() {
                   key={lesson.id}
                   className="bg-white text-primary w-full rounded-[12px] py-[18px] px-[12px]  border "
                 >
-                  <Button onClick={() => setSelectedLesson(lesson)}>
+                  <Button onClick={() => setSelectedLesson(lesson)} variant="">
                     <p className="text-[18px] text-wrap text-start leading-[20px] pb-[20px] mobil640:text-[16px] mobil640:pb-[18px] ">
                       {lesson.title}
                     </p>
