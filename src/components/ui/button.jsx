@@ -10,7 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          ' text-primary ',
+          ' text-primary  ',
         destructive:
           '',
         outline:
