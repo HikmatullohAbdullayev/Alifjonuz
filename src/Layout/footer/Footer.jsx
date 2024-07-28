@@ -27,9 +27,9 @@ function Footer() {
             >
               Telegram kanal
             </a>
-            <a href="tel:+998935671121" className="text-gray-700">
+            {/* <a href="tel:+998935671121" className="text-gray-700">
               Telefon: +998 93 567 11 21
-            </a>
+            </a> */}
             <a
               href="mailto:hikmatullohabdullayev2@gmail.com"
               className="text-gray-700"
