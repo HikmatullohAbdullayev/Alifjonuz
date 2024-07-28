@@ -32,7 +32,7 @@ function BooksSection({ bookImg, currentItems }) {
               className="block py-[12px] w-[200px] rounded-[12px] mx-auto text-center bg-secondary hover:bg-secondary/65 hover:text-primary"
             >
               {' '}
-              Kitobni ko'rish
+              Yuklab olish
             </a>
           </div>
         ))
