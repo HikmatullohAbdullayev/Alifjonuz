@@ -44,7 +44,7 @@ function Paginations({ currentPage, totalItems, itemsPerPage, itemsPerPageMobile
 
   return (
     <Pagination className="mt-[40px] py-[20px] ">
-      <PaginationContent>
+      <PaginationContent className="  ">
         <PaginationItem className="text-primary rounded-[8px]  bg-white hover:bg-secondary  mobile480:hidden">
           <PaginationPrevious
             href="#"
