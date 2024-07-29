@@ -113,4 +113,3 @@ const Auth = () => {
 }
 
 export default Auth
-// test uchun
