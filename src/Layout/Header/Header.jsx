@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import logo from "../../assets/logo.jpeg"
+import { Link } from 'react-router-dom'
+import logo from '../../assets/logo.jpeg'
 import Nav from '../../components/Nav'
 
 function Header() {
@@ -7,8 +7,8 @@ function Header() {
     <header className="py-[10px] bg-white flex justify-around  ">
       <div className="w-[50px] rounded-[50%]">
         <Link to="/">
-              <img src={logo} alt="logo" className="rounded-[50%]" />
-              </Link>
+          <img src={logo} alt="logo" className="rounded-[50%]" />
+        </Link>
       </div>
 
       <Nav />

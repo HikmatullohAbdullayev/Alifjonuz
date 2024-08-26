@@ -1,34 +1,13 @@
-import React, { useState } from 'react'
-import dataCourses from '../../data/data.json'
+import React from 'react'
 import Img from '../../assets/onlineWeb.png'
 import SearchInput from '../../components/SearchInput'
 import SelectType from '../../components/SelectType'
 import CoursesSection from '../../components/CoursesSection'
+import useZustandStore from '../../store/useZustsandStore.js'
 
 function Home() {
-  const [data, setData] = useState(dataCourses.courses)
-  const [searchTerm, setSearchTerm] = useState('')
-  const [selectTerm, seSelectTerm] = useState('')
+  const { filteredData } = useZustandStore()
 
-  const handleInputChange = (event) => {
-    setSearchTerm(event.target.value)
-    const filteredData = dataCourses.courses.filter((course) =>
-      course.categoryTitle
-        .toLowerCase()
-        .includes(event.target.value.toLowerCase())
-    )
-    setData(filteredData)
-  }
-
-  const handleSelectChange = (event) => {
-    seSelectTerm(event.target.value)
-    const filteredData = dataCourses.courses.filter((course) =>
-      course.categoryType
-        .toLowerCase()
-        .includes(event.target.value.toLowerCase())
-    )
-    setData(filteredData)
-  }
   return (
     <div className="container mt-[20px] mb-[50px]">
       <div className="text-center mx-auto max-w-[400px]">
@@ -43,17 +22,13 @@ function Home() {
       <div>
         <div className="flex justify-evenly items-center gap-[20px] py-[16px] table845:flex-col mobil640:gap-[10px]">
           <h3 className="text-[20px] px-[8px]">Barcha kurslar</h3>
-          <SearchInput
-            handleInputChange={handleInputChange}
-            searchTerm={searchTerm}
-            title={'kursni'}
-          />
+          <SearchInput title={'kursni'} />
           <div className="max-w-[250px] w-full">
-            <SelectType handleSelectChange={handleSelectChange} />
+            <SelectType />
           </div>
         </div>
 
-        <CoursesSection data={data} Img={Img} />
+        <CoursesSection data={filteredData} Img={Img} />
       </div>
     </div>
   )

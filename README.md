@@ -1,4 +1,3 @@
-
 # Zamaxshariy Edu
 
 ## Loyihaning tavsifi
