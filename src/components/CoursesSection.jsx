@@ -1,3 +1,4 @@
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 function CoursesSection({ data, Img }) {
@@ -55,7 +56,7 @@ function CoursesSection({ data, Img }) {
         ))
       ) : (
         <div className="text-center border bg-white rounded-2xl py-[12px] ">
-          <p className="mx-auto ">Ma`lumot topilmadi.</p>
+          <p className="mx-auto">Ma`lumot topilmadi.</p>
         </div>
       )}
     </div>

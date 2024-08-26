@@ -1,13 +1,16 @@
 import React from 'react'
 import { Input } from '@/components/ui/input'
+import useZustsandStore from '../store/useZustsandStore'
 
-function SearchInput({ searchTerm, handleInputChange, searchTermBook, title }) {
+function SearchInput({ searchTermBook, title }) {
+  const { searchTerm, handleInputChange } = useZustsandStore()
+
   return (
     <Input
       type="text"
       placeholder={`Qaysi ${title} qidiryabsiz`}
       className="max-w-[250px] bg-white rounded-lg"
-      value={searchTerm || searchTermBook}
+      value={searchTerm || searchTermBook || ''}
       onChange={handleInputChange}
     />
   )

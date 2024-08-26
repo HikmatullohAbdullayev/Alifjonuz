@@ -1,6 +1,9 @@
 import React from 'react'
+import useZustandStore from '../store/useZustsandStore.js'
 
-function SelectType({ handleSelectChange }) {
+function SelectType() {
+  const { handleSelectChange } = useZustandStore()
+
   return (
     <div className="relative inline-block w-full text-gray-700">
       <select
@@ -11,7 +14,6 @@ function SelectType({ handleSelectChange }) {
         <option value="Nahv">Nahv</option>
         <option value="Lug'at">Lug'at</option>
         <option value="Darslik">Darslik</option>
-        {/* <option value="Ilmiy">Ilmiy</option> */}
         <option value="Badiiy">Badiiy</option>
         <option value="Boshqa">Boshqa</option>
       </select>
